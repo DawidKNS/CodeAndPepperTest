@@ -7,6 +7,8 @@ declare global {
 
     interface Web {
         url: string;
+        login: string;
+        password: string;
     }
 
     interface CustomTestOptions extends PlaywrightTestOptions, PlaywrightWorkerOptions {

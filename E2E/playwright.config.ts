@@ -39,7 +39,9 @@ export default defineConfig<CustomTestOptions>({
         headless: true,
         testConfig: {
             web: {
-                url: configPath.web.url
+                url: configPath.web.url,
+                login: configPath.web.login,
+                password: configPath.web.password,
             }
         }
     },
